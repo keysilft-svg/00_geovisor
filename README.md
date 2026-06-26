@@ -42,6 +42,9 @@ Una vez verificado que el visor está en línea, debes limpiar el mapa eliminand
    - Confirma el borrado haciendo clic en el botón verde **Commit changes...** (Confirmar cambios).
    - En el cuadro que se despliega, haz clic en **Commit changes** (Confirmar cambios) para guardar el borrado en tu repositorio.
 
+> [!WARNING]
+> Dentro de la carpeta `data/` hay un archivo oculto llamado `.gitkeep`. **NO lo elimines**. Git no realiza el seguimiento de carpetas completamente vacías, por lo que si eliminas la carpeta o todo lo que hay dentro, desaparecerá de la interfaz web de GitHub y no podrás ingresar a ella para subir tus archivos. El archivo `.gitkeep` mantiene la carpeta `data/` visible en tu repositorio.
+
 ### 📤 Paso 5: Subir tus Propias Capas de Datos
 Sube tus propios archivos geográficos directamente desde el navegador web:
 1. Asegúrate de estar dentro de la carpeta `data/` (o [data/](data/)) en tu repositorio en GitHub.
